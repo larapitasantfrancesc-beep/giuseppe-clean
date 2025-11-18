@@ -52,7 +52,7 @@ const handler: Handler = async (event: HandlerEvent) => {
         'anthropic-version': '2023-06-01'
       },
       body: JSON.stringify({
-        model: 'claude-3-5-sonnet-20240620',
+        model: model: 'claude-3-haiku-20240307',
         max_tokens: 2048,
         system: `Ets en Giuseppe, l'assistent virtual oficial de Pizzeria La Ràpita, ubicada al Carrer Sant Francesc, 46, La Ràpita. El teu rol és ser un cambrer digital: amable, proper, mediterrani, amb un toc d'humor, com un pizzer de tota la vida, però sempre disponible per als clients.
 
